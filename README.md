@@ -1,67 +1,98 @@
-🔧 WhatsApp Automation Wizard – Python Messaging Tool
-Tired of sending repetitive WhatsApp messages manually?
-This project lets you automate message sending — instantly or at scheduled times — to multiple contacts, even from a .csv file.
-One tap. Thousands of messages. All in Python.
 
-🚀 Key Features
-✨ Instant Messaging
-Send personalized messages instantly with a single command. Great for reminders, greetings, and bulk updates.
+markdown
+Copy
+Edit
+# 📲 WhatsApp Personalized Message Sender (Python Automation)
 
-📅 Schedule for Later
-Choose a time and date — messages are sent exactly when you want.
+Automate sending personalized WhatsApp messages to multiple contacts — either instantly or scheduled — using a simple and interactive Python script.
 
-📂 CSV File Support
-Store all contacts and messages in a .csv file. Let the script handle the rest automatically.
+---
 
-⚙️ Simple to Use
-Designed with beginners in mind. Easy setup and no complex config needed.
+## 🚀 Features
 
-📦 How to Use
-📥 Clone this repository
-git clone https://github.com/shabaabhanaan/whatsapp-auto-sender.git
+- 🔄 **Send to Multiple Numbers** – Supports sending to multiple contacts at once.
+- 💬 **Custom Message for Each Number** – Pair each phone number with a custom message.
+- ⏰ **Schedule Messages** – Send now or set a time (24-hour format) for later delivery.
+- 🌐 **WhatsApp Web Integration** – Uses `pywhatkit` to send messages through WhatsApp Web.
+- 🔢 **Automatic Number Formatting** – Local numbers like `0771234567` are auto-converted to international format (`+94771234567`).
 
-🔧 Customize
+---
 
-Edit your message list or .csv file
+## 🛠️ How to Use
 
-Enter recipient numbers (with or without country code)
+1. **Install Python and dependencies**:
+   ```bash
+   pip install pywhatkit
+Run the script:
 
-🚀 Run the script
+bash
+Copy
+Edit
+python your_script_name.py
+Follow the prompts:
 
-Choose between instant or scheduled sending
+Enter phone:message pairs like:
 
-Watch it launch WhatsApp Web and send your messages!
+ruby
+Copy
+Edit
+0771234567:Hello, 0759876543:Hi there, 0711111111:Good morning
+Choose whether to send instantly (I) or schedule (S)
 
-⚙️ Setup
-✅ Install Python 3.7+
+If scheduling, enter time in HH.MM or HH:MM (e.g., 21:30)
 
-✅ Install required libraries
+🧪 Example
+Input:
+
+ruby
+Copy
+Edit
+0771234567:Hey!, 0759876543:Meeting at 5, 0788888888:Happy Birthday
+Output:
+
+css
+Copy
+Edit
+Sending instantly to +94771234567...
+Message sent to +94771234567.
+...
+Or for scheduled messages:
 
 nginx
 Copy
 Edit
-pip install pywhatkit pandas
-✅ Optional: Install mudslide for advanced CLI login
-
-nginx
+Scheduling message for +94771234567 at 21:30...
+📋 Sample Log Format
+yaml
 Copy
 Edit
-npm install -g mudslide
-npx mudslide login
-✅ Scan the QR code with WhatsApp Web to connect
+Date: 02/07/2025
+Time: 21:30
+Phone Number: +94771234567
+Message: Hello!
+--------------------
+⚠️ Notes
+Make sure you are logged into WhatsApp Web on your default browser before running the script.
 
-💡 Pro Tips
-🧠 Customize It: Adapt the script for birthdays, marketing, or reminders
+Message scheduling relies on your local system time.
 
-🤝 Contribute: PRs welcome! Let's build better automation together
-![what](https://github.com/user-attachments/assets/cce65a4a-fd95-431f-a1fc-47df2793c77a)
+Do not close the browser tab while the script is running.
 
-🛡️ Use Responsibly: Always follow WhatsApp's terms. No spamming.
+💡 Tips
+Add short delays between each message to avoid blocking.
 
-🌐 Connect with Me
-🔗 LinkedIn – Shabaab Hanaan
+Use responsibly — avoid spamming or violating WhatsApp’s terms.
 
-💻 GitHub Profile
+🤝 Contribute
+Feel free to fork this repo and submit pull requests with improvements (like .csv support, GUI version, or logs to file).
 
-Happy Automating! 💬⚡
-Make messaging fast, personal, and powerful — with Python.
+📌 Author
+Shabaab Hanaan
+🔗 LinkedIn
+💻 GitHub
+
+Happy Automating! 💬🚀
+
+yaml
+Copy
+Edit
