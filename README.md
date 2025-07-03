@@ -1,7 +1,3 @@
-
-markdown
-Copy
-Edit
 # 📲 WhatsApp Personalized Message Sender (Python Automation)
 
 Automate sending personalized WhatsApp messages to multiple contacts — either instantly or scheduled — using a simple and interactive Python script.
