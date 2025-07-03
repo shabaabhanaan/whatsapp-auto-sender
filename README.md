@@ -18,7 +18,7 @@ Designed with beginners in mind. Easy setup and no complex config needed.
 
 📦 How to Use
 📥 Clone this repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/shabaabhanaan/whatsapp-auto-sender.git
 
 🔧 Customize
 
