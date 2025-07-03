@@ -54,6 +54,7 @@ npx mudslide login
 🧠 Customize It: Adapt the script for birthdays, marketing, or reminders
 
 🤝 Contribute: PRs welcome! Let's build better automation together
+![what](https://github.com/user-attachments/assets/cce65a4a-fd95-431f-a1fc-47df2793c77a)
 
 🛡️ Use Responsibly: Always follow WhatsApp's terms. No spamming.
 
